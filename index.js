@@ -11,8 +11,6 @@ const app = express();
 const PORT = process.env.PORT || "3000";
 const db = process.env.DB_STRING;
 
-console.log("######################################", db, typeof db)
-
 mongoose
   .connect(
     db,
